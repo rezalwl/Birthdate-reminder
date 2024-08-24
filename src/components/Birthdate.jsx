@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import data from "../data/birthdate";
 import BirthDateList from "./BirthDateList";
+import './birthdate.css'
 
 const Birthdate = () => {
   const [people, setPeople] = useState(data)
